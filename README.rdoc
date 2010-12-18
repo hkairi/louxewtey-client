@@ -4,7 +4,16 @@ Client Ruby pour accéder et profiter des services de la plateforme LouXewTey.<b
 1 -> Créer une application sur le site LouXewTey.
 2 -> Récupérer les clés : API_KEY et AUTH_KEY
 
+== Installation 
+
+1 -> gem install rest-client
+2 -> gem install louxewtey-client
+
+
 == Exemples de code
+
+
+require 'rubygems'
 
 require 'louxewtey-client'
 
