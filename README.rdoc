@@ -9,7 +9,9 @@ Client Ruby pour accéder et profiter des services de la plateforme LouXewTey.<b
 require 'louxewtey-client'
 
 client = LouXewTey::Client.new
-liste_events = client.get_list_of("evenements","xml") <br />
+
+liste_events = client.get_list_of("evenements","xml")
+
 puts liste_events
 
 
