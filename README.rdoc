@@ -10,14 +10,13 @@ require 'louxewtey-client'
 
 client = LouXewTey::Client.new
 liste_events = client.get_list_of("evenements","xml") 
-## On choisit la resource que l'on veut et on spécifie le format souhaité[ xml ou json ]. 
 puts liste_events
 
 
 == Contributing to louxewtey-client
  
 
-Nous suivre Sur Twitter :<a href="http://twitter.com/hassanemoustaph">@hassanemoustaph</a>
+Nous suivre Sur Twitter :@hassanemoustaph
 == Copyright
 
 Copyright (c) 2010 Hassane Moustapha. See LICENSE.txt for
