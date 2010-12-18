@@ -4,7 +4,7 @@ begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
   $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
+  $stderr.puts "Lancer `bundle install` pour installer les gems requises "
   exit e.status_code
 end
 require 'rake'
@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "louxewtey-client"
   gem.homepage = "http://github.com/hkairi/louxewtey-client"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{LouXewTey Ruby Client}
+  gem.description = %Q{ Client Ruby pour accéder et profiter des services de la plateforme LouXewTey. }
   gem.email = "hassanemoustapha@gmail.com"
   gem.authors = ["Hassane Moustapha"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
