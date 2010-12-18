@@ -7,6 +7,7 @@ Client Ruby pour accéder et profiter des services de la plateforme LouXewTey.<b
 == Installation 
 
 1 -> gem install rest-client
+
 2 -> gem install louxewtey-client
 
 
