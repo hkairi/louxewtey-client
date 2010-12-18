@@ -1,21 +1,23 @@
 = louxewtey-client
 
-Client Ruby pour accéder et profiter des services de la plateforme LouXewTey.
+Client Ruby pour accéder et profiter des services de la plateforme LouXewTey.<br />
 1 -> Créer une application sur le site LouXewTey.
 2 -> Récupérer les clés : API_KEY et AUTH_KEY
 
-Nous suivre Sur Twitter : @hassanemoustaph
+== Exemples de code
+
+require 'louxewtey-client'
+
+client = LouXewTey::Client.new
+liste_events = client.get_list_of("evenements","xml") 
+## On choisit la resource que l'on veut et on spécifie le format souhaité[ xml ou json ]. 
+puts liste_events
+
 
 == Contributing to louxewtey-client
  
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
+Nous suivre Sur Twitter :<a href="http://twitter.com/hassanemoustaph">@hassanemoustaph</a>
 == Copyright
 
 Copyright (c) 2010 Hassane Moustapha. See LICENSE.txt for
