@@ -1,12 +1,11 @@
-1292671135
+1294225528
 Client	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	  class Client 
 LouXewTey	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey-client.rb	module LouXewTey
 LouXewTey	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	module LouXewTey
 LouXewTey	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/configuration.rb	module LouXewTey
 SERVEUR	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/configuration.rb	    SERVEUR =
 TestCase	/home/hassane/ruby_apps/louxewtey-client/test/helper.rb	class Test::Unit::TestCase
-TestLouxewteyClient	/home/hassane/ruby_apps/louxewtey-client/test/test_louxewtey-client.rb	class TestLouxewteyClient 
 connect	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	    def connect( api_key, auth_key )
 create_event	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	    def create_event( event={} )
-get_list_of	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	    def get_list_of( resource="", format="xml" )
+get_list_of	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	    def get_list_of( args = {} )      
 initialize	/home/hassane/ruby_apps/louxewtey-client/lib/louxewtey/client.rb	    def initialize( api_key=nil,auth_key=nil )

@@ -19,10 +19,26 @@ require 'rubygems'
 require 'louxewtey-client'
 
 client = LouXewTey::Client.new
-
+#Ancienne version 
 liste_events = client.get_list_of("evenements","xml")
 
+#Mise à jour 
+
+liste_events = client.get_list_of(:resource => "evenements",:format => "xml", :type => "conference")
+
+#les attributs :format et :type sont facultatifs. (xml par défaut pour le format, et "all" pour type)
+
 puts liste_events
+
+== Nouveautés de la version 0.1.1
+
+Listes des types d'évenements :
+
+- conference
+- concert
+- culture
+- religion
+- soiree
 
 
 == Contributing to louxewtey-client
