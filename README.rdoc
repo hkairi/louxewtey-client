@@ -19,7 +19,9 @@ require 'rubygems'
 require 'louxewtey-client'
 
 client = LouXewTey::Client.new
+
 #Ancienne version 
+
 liste_events = client.get_list_of("evenements","xml")
 
 #Mise à jour 
