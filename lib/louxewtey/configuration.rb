@@ -1,3 +1,4 @@
 module LouXewTey
-    SERVEUR = "http://luxew.manybusiness.net" 
+    SERVEUR = "http://loukhew.net"
 end
+

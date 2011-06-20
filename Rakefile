@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/hkairi/louxewtey-client"
   gem.license = "MIT"
   gem.summary = %Q{LouXewTey Ruby Client}
-  gem.description = %Q{ Client Ruby pour accéder et profiter des services de la plateforme LouXewTey. }
+  gem.description = %Q{ Client Ruby pour acceder et profiter des services de la plateforme LouXewTey. }
   gem.email = "hassanemoustapha@gmail.com"
   gem.authors = ["Hassane Moustapha"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
@@ -51,3 +51,4 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
