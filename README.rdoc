@@ -4,7 +4,7 @@ Client Ruby pour accéder et profiter des services de la plateforme LouXewTey.<b
 1 -> Créer une application sur le site LouXewTey.
 2 -> Récupérer les clés : API_KEY et AUTH_KEY
 
-== Installation 
+== Installation
 
 1 -> gem install rest-client
 
@@ -20,19 +20,19 @@ require 'louxewtey-client'
 
 client = LouXewTey::Client.new
 
-#Ancienne version 
+# Ancienne version
 
 liste_events = client.get_list_of("evenements","xml")
 
-#Mise à jour 
+# Mise à jour
 
 liste_events = client.get_list_of(:resource => "evenements",:format => "xml", :type => "conference")
 
-#les attributs :format et :type sont facultatifs. (xml par défaut pour le format, et "all" pour type)
+# Les attributs :format et :type sont facultatifs. (xml par défaut pour le format, et "all" pour type)
 
 puts liste_events
 
-== Nouveautés de la version 0.1.1
+== Nouveautés de la version 0.2/0
 
 Listes des types d'évenements :
 
@@ -44,7 +44,7 @@ Listes des types d'évenements :
 
 
 == Contributing to louxewtey-client
- 
+
 
 Nous suivre Sur Twitter :@hassanemoustaph
 == Copyright
